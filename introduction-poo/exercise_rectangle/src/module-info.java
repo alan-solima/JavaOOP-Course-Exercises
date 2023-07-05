@@ -1,0 +1,2 @@
+module exercises_POO {
+}
