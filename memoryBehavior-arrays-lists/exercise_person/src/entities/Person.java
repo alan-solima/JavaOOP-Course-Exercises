@@ -2,9 +2,9 @@ package entities;
 
 public class Person {
 	
-	String name;
-	int age;
-	double height;
+	private String name;
+	private int age;
+	private double height;
 	
 	public Person(String name, int age, double height) {
 		this.name = name;
