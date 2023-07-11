@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module exercice_bank {
-}
