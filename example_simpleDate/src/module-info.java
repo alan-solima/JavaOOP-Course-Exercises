@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module example_simpleDate {
-}
