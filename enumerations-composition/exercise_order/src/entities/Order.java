@@ -85,16 +85,20 @@ public class Order {
 		sb.append("Order items: \n");
 		
 		for(OrderItem item : items) {
-			sb.append(item.getProduct().getName() + ", $");
-			sb.append(item.getPrice() + ", ");
-			sb.append("Quantity: ");
-			sb.append(item.getQuantity() + ", ");
-			sb.append("Subtotal: $");
-			sb.append(item.subTotal() + "\n");
+			/*
+			*  made in OrderItem.java toString
+			* sb.append(item.getProduct().getName() + ", $");
+			* sb.append(item.getPrice() + ", ");
+			* sb.append("Quantity: ");
+			* sb.append(item.getQuantity() + ", ");
+			* sb.append("Subtotal: $");
+			* sb.append(item.subTotal() + "\n");
+			*/
+			sb.append(item + "\n");
 		}
 		
 		sb.append("Total price: $");
-		sb.append(total());
+		sb.append(String.format("%.2f", total()));
 		
 		return sb.toString();
 	}
